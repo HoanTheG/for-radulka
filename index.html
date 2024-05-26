@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>raduska do toho!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="hearts-container"></div> <!-- Container for the hearts -->
+    <div class="container">
+        <div class="photo-grid">
+            <!-- Your photo grid images here -->
+            <img src="./assets/photo1.jpg.jpg" alt="Photo 1">
+            <img src="./assets/photo2.jpg.jpg" alt="Photo 2">
+            <img src="./assets/photo3.jpg.jpg" alt="Photo 3">
+            <img src="./assets/photo4.jpg.jpg" alt="Photo 4">
+            <img src="./assets/photo5.jpg.jpg" alt="Photo 5">
+            <img src="./assets/photo6.jpg.jpg" alt="Photo 6">
+        </div>
+        <div class="content">
+            <h1>pre moje slnko</h1>
+            <p>Laska moja, ty si predsa moja...verím a manifestujem ze vsetko dopadne tak ako si predstavuješ. Tvoja vytrvalosť je pre mna niečo co na tebe najviac obdivujem. Máš v sebe všetko, čo treba na to, aby si to zvládla. Maturita = formalita. Držím ti palce a v stredu mam pre teba dalsie prekvapenie po tom ako to vsetko uspesne zvladnes🌟</p>
+            <button id="surpriseButton">Click for a surprise</button>
+            <p id="hiddenMessage" class="hidden">You've got this! 💪✨</p>
+            <button id="gifButton">Click for a GIF</button>
+        </div>
+        
+        <audio id="surpriseSound" src="./assets/the wheels on the bus go round and round meme skeleton vape wheelchair.mp3"></audio>
+
+        <audio id="secondAudio" src="./assets/audio.mp3"></audio>
+
+    </div>
+    <!-- Move the first GIF outside of the .gif-container -->
+    <img id="surpriseGIF1" class="gif hidden left" src="./assets/huh-cat-huh-m4rtin.gif" alt="Surprise GIF 1">
+
+    <!-- Separate container for GIFs -->
+     <img id="surpriseGIF2" class="gif hidden right" src="./assets/ezgif-1-1c790298bc.gif" alt="Surprise GIF 2">
+
+
+    <script src="script.js"></script>
+</body>
+</html>
